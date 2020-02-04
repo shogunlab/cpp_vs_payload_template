@@ -78,7 +78,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <PostBuildEvent>
-      <Command>copy /Y $(TargetPath) $(SolutionDir)\Libraries\$(Platform)\$safeprojectname$_D.lib</Command>
+      <Command>copy /Y $(TargetPath) $(SolutionDir)Libraries\$(Platform)\$safeprojectname$_D.lib</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -89,7 +89,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <PostBuildEvent>
-      <Command>copy /Y $(TargetPath) $(SolutionDir)\Libraries\$(Platform)\$safeprojectname$_D.lib</Command>
+      <Command>copy /Y $(TargetPath) $(SolutionDir)Libraries\$(Platform)\$safeprojectname$_D.lib</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
